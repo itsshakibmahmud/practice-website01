@@ -41,8 +41,9 @@ nav ul li a{
 }
 h1{
     font-family: RoadTest;
-    color: blue;
+    color: rgb(211, 190, 7);
     font-size: 22px;
+    
 }
 .active{
     font-weight: bold;
@@ -94,16 +95,18 @@ button:hover{
     background-color: rgb(22, 187, 146);
 }
 .model{
-    height: 660px;
+    height: 400px;
     position: absolute;
-    bottom: 50px;
-    left: 60%;
+    bottom: 60px;
+    left: 50%;
+    background-image: url(../img/shapes/Group\ 33086.png);
 }
 .about-container .model-2{
-    height: 660px;
+    height: 500px;
     position: relative;
     top: 500px;
-    left:13%
+    left:13%;
+    background-image: url(../img/shapes/Group\ 33082.png);
 }
 .about-container p:nth-child(1){
     color: black;
@@ -111,10 +114,12 @@ button:hover{
 
 }
 .about-container  .pragraph{
+    margin-top: 80px;
+    text-align: left;
     position: absolute;
-    left: 73%;
-    top: 27%
-    transform: translate(-73%,-27%);
+    left: 60%;
+    
+    transform: translate(-60);
 }
 .about-container  .pragraph .down-cv{
     height: 50px;
@@ -127,4 +132,130 @@ button:hover{
 }
 .about-container  .pragraph .down-cv:active{
       transform: scale(0.9);
+}
+.intro-container{
+    width: 80%;
+    height: 330px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: 27% auto 20px auto;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+.intro-container img{
+    height: 250px;
+    background-image: url(../img/shapes/Group\ 33080.png);
+    
+}
+.about-text {
+    width: 550px;
+    margin-left: 25px;
+}
+.about-text p:nth-child(1){
+   color: #ee0f0f;
+   font-weight: bold;
+   font-size: 23px;
+   line-height: 0px;
+
+}
+.about-text p:nth-child(2){
+    color: #e77070;
+    font-weight: bold;
+    
+    
+ }
+ .about-text p:nth-child(3),
+ .about-text p:nth-child(4){
+    color: #331111;
+    font-weight: bold;
+    line-height: 1.6em;
+  }
+  .about-text button{
+      background-color: rgb(28, 189, 114);
+      padding:10px 30px;
+      margin: 0px 8px;
+      cursor: pointer;
+      border: 0px;
+      border-radius: 5px;
+      color: #fff;
+  }
+  .about-text button:hover{
+        background-color: rgb(19, 117, 36);
+  }
+  .about-text button:active{
+      transform: translateX(0.8);
+  }
+  footer h1{
+      text-align: center;
+      margin-top: 60px;
+      color: rgb(34, 51, 102);
+      font-size: 50px;
+  }
+  footer h1 span{
+    
+    color: rgb(224, 134, 15);
+  }
+
+  .box-1 ,.box-2,.box-3{
+      width: 370px;
+      height: 374px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+
+  }
+  .box-container{
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin-left: 100px;
+      margin-top: 100px;
+}
+.box-1 img,.box-2 img,.box-3 img {
+    width: 370px;
+    height: 300px;
+    
+    
+}
+.box-1 p,.box-2 p,.box-3 p{
+    text-align: center;
+    font-size: 30px;
+    margin:auto;
+    color: rgb(219, 49, 7);
+}
+.contact-container{
+    background-image: url("../img/shapes/Group_33094_1.png");
+    height: 150px;
+    width: 60%;
+    margin: 60px auto;
+    
+    justify-content: space-between;
+}
+.contact-text {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-text p{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 30px;
+    color:#fff;
+}
+.contact-text button{
+    height: 35px;
+    width: 150px;
+    margin-top: 55px;
+    margin-right: 100px;
+    background-color: rgb(236, 100, 20);
+    color: snow;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact-text button:active{
+    transform: scale(1.1);
 }
