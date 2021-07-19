@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{   
+    box-sizing: border-box;
+    margin : 0px;
+    padding:0px;
+}
+body{
+    f
+    color: #3c3c3c;
+    line-height: 1.6;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: #3c3c3c;
+    font-size: 20px;
+}
+}
+h1 {
+    font-weight: 300;
+    line-height: 1.2;
+    
+    padding: 10px;
+}
+p {
+    margin: 10px 0;
+
+}
+
+}
+.navbar{
+    position: absolute;
+    
+}
+.navbar ul{
+    display: flex;
+    float: right;
+    margin-right: 80px;
+}
+.navbar a:hover{
+    color: rgb(168, 10, 207);
+}
+.showcase{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
